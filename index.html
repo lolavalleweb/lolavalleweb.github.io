@@ -3,7 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lola Valle Garrido - Abogada Penalista</title>
+    <title>Lola Valle Garrido - Abogada Penalista en Madrid | Especialista en Derecho Penal</title>
+    <meta name="description" content="Abogada penalista en Madrid especializada en derecho penal, familia y civil. Defensa jurídica experta en delitos económicos, violencia de género y sucesiones.">
+    <meta name="keywords" content="abogado penalista Madrid, abogada penalista, derecho penal, Lola Valle Garrido, abogado familia Madrid, derecho civil, defensa jurídica">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://lolavalleweb.github.io" />
+    
+    <!-- Schema Markup para Abogados -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Lola Valle Garrido - Abogada Penalista",
+      "description": "Despacho de abogados especializado en derecho penal, familia y civil en Madrid",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Orense 27, Esc. A 5º Izqda.",
+        "addressLocality": "Madrid",
+        "postalCode": "28008",
+        "addressCountry": "ES"
+      },
+      "telephone": "+34656426146",
+      "email": "lolavalle@icam.es",
+      "image": "https://lolavalleweb.github.io/images/header.jpg",
+      "url": "https://lolavalleweb.github.io",
+      "priceRange": "$$",
+      "openingHours": "Mo-Fr 09:00-19:00"
+    }
+    </script>
+    
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- SoundCloud embed script -->
@@ -44,7 +72,7 @@
         }
         .nav-link.active {
             color: #fff;
-            background-color: #198754; /* Verde de Bootstrap */
+            background-color: #198754;
             border-radius: 4px;
         }
         .section-title {
@@ -142,6 +170,17 @@
             display: none;
             margin-top: 1.5rem;
         }
+        
+        /* Estilos para el breadcrumb */
+        .breadcrumb {
+            background-color: transparent;
+            padding: 0.75rem 0;
+            margin-bottom: 1rem;
+        }
+        .breadcrumb-item a {
+            color: #198754;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
@@ -149,16 +188,18 @@
         <div class="row">
             <div class="col-md-8">
                 <!-- Header Image -->
-                <img src="images/header.jpg" alt="Lola Valle Garrido - Abogada Penalista" class="header-image">
+                <header>
+                    <img src="images/header.jpg" alt="Lola Valle Garrido, abogada penalista en su despacho de Madrid" class="header-image" loading="lazy" width="1200" height="630">
 
-                <!-- Header Section -->
-                <div class="header-content">
-                    <h1 class="name-title">Lola Valle Garrido</h1>
-                    <p class="specialty">Abogada penalista de Madrid</p>
-                </div>
+                    <!-- Header Section -->
+                    <div class="header-content">
+                        <h1 class="name-title">Lola Valle Garrido</h1>
+                        <p class="specialty">Abogada penalista de Madrid</p>
+                    </div>
+                </header>
 
                 <!-- Navigation -->
-                <div class="nav-section">
+                <nav class="nav-section" aria-label="Navegación principal">
                     <ul class="nav">
                         <li class="nav-item">
                             <a class="nav-link active" href="#" data-section="penal">Penal</a>
@@ -179,176 +220,171 @@
                             <a class="nav-link" href="#" data-section="contacto">Contacto</a>
                         </li>
                     </ul>
-                </div>
+                </nav>
 
                 <!-- Main Content -->
-                <div id="penal" class="section-content active">
-                    <h2 class="section-title">Penal</h2>
-                    <p>En nuestro Departamento Penal, realizamos asistencias en todo tipo de procedimientos penales, ante todas las instancias judiciales y por razón de cualquier materia.</p>
-                    
-                    <p>Nos dedicamos a la defensa y acusación en todo tipo de delitos recogidos en nuestro código penal:</p>
-                    
-                    <ul>
-                        <li>Delitos económicos y societarios</li>
-                        <li>Delitos contra la libertad sexual</li>
-                        <li>Delitos de narcotráfico</li>
-                        <li>Delitos de corrupción</li>
-                        <li>Delitos violentos</li>
-                        <li>Delitos contra la seguridad vial</li>
-                    </ul>
-                    
-                    <p>Nuestra misión es que el ciudadano imputado, acusado o procesado, a la hora de llegar a juicio tenga la mejor defensa penal, intentado una sentencia absolutoria, y en los casos más difíciles, al menos evitar el ingreso en prisión.</p>
-                    
-                    <p>Cuando ejercitamos la acusación particular nuestra misión va a ser que la víctima de un delito sea resarcida en sus daños y perjuicios y ademas que el culpable sea condenado, ejercitando mediante la denuncia o querella correspondiente la acusación particular.</p>
-                    
-                    <p>Estamos totalmente preparados para defenderle y estar a su lado en todo momento.</p>
-                </div>
-
-                <!-- Familia Section -->
-                <div id="familia" class="section-content">
-                    <h2 class="section-title">Derecho de Familia</h2>
-                    <p>Estamos especializados en derecho de familia, atendiendo entre otras, las siguientes materias:</p>
-                    
-                    <ul>
-                        <li>Separaciones y divorcios</li>
-                        <li>Reclamaciones de pensiones compensatorias y de alimentos</li>
-                        <li>Derecho de visitas, tanto los progenitores como los abuelos</li>
-                        <li>Guardia y custodia</li>
-                        <li>Testamentos, sucesiones y herencias</li>
-                        <li>Declaración de herederos</li>
-                    </ul>
-                </div>
-
-                <!-- Civil Section -->
-                <div id="civil" class="section-content">
-                    <h2 class="section-title">Derecho Civil</h2>
-                    <p>En nuestro departamento de asuntos civiles, tratamos los siguientes temas siendo expertos en:</p>
-                    
-                    <ul>
-                        <li>Arrendamientos urbanos</li>
-                        <li>Propiedad horizontal</li>
-                        <li>Desahucios</li>
-                        <li>Reclamaciones de cantidad</li>
-                        <li>Impagos</li>
-                        <li>Contratos civiles y mercantiles</li>
-                        <li><span class="internal-link" data-section="familia">Derecho de Familia</span></li>
-                    </ul>
-                </div>
-
-                <!-- Otras especialidades Section -->
-                <div id="otras" class="section-content">
-                    <h2 class="section-title">Otras especialidades</h2>
-                    <p>Nuestro despacho también ofrece servicios especializados en:</p>
-                    
-                    <ul>
-                        <li>Asistencias a detenidos</li>
-                        <li>Procedimiento Abreviado</li>
-                        <li>Violencia de Género</li>
-                        <li>Menores</li>
-                        <li>Penitenciario</li>
-                        <li>Accidentes de tráfico</li>
-                        <li>Faltas</li>
-                    </ul>
-                </div>
-
-                <!-- Noticias Section -->
-                <div id="noticias" class="section-content">
-                    <h2 class="section-title">Noticias</h2>
-                    
-                    <div class="news-article" data-category="programas-radio">
-                        <span class="news-category">Programas de Radio</span>
-                        <h3 class="news-title">Audiencia Nacional – Somos muchas radio</h3>
-                        <p>Extracto de la entrevista a Lola Valle Garrido, abogada penalista, en Somos Muchas Radio donde habla sobre la Audiencia Nacional, donde se tratan principalmente los delitos con la Corona o miembros de Gobiernos, delitos de crimen organizado como terrorismo, narcotráfico, falsificación de moneda, y de delitos cometidos fuera del territorio nacional que conforme a las Leyes o a los tratados corresponda su enjuiciamiento a los Tribunales Españoles.</p>
+                <main>
+                    <div id="penal" class="section-content active">
+                        <h2 class="section-title">Derecho Penal</h2>
+                        <p>En nuestro Departamento Penal, realizamos asistencias en todo tipo de procedimientos penales, ante todas las instancias judiciales y por razón de cualquier materia.</p>
                         
-                        <div class="audio-container">
-                           <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187451815&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/daniel-villanueva-56" title="Daniel Villanueva" target="_blank" style="color: #cccccc; text-decoration: none;">Daniel Villanueva</a> · <a href="https://soundcloud.com/daniel-villanueva-56/audiencia-nacional-somos-muchas-radio" title="Audiencia Nacional - Somos muchas radio" target="_blank" style="color: #cccccc; text-decoration: none;">Audiencia Nacional - Somos muchas radio</a></div>
-                        </div>
-                    </div>
-                    
-                    <div class="news-article" data-category="programas-radio">
-                        <span class="news-category">Programas de Radio</span>
-                        <h3 class="news-title">Turno de Oficio – Somos muchas radio</h3>
-                        <p>Extracto de la entrevista a Lola Valle Garrido, abogada penalista, en Somos Muchas Radio donde habla sobre el turno de oficio, de cómo realiza su trabajo, cómo son sus asistencias en las guardias a detenidos en asuntos de violencia, alcoholemias, menores, violencia contra la mujer.</p>
+                        <p>Como <strong>abogados penalistas en Madrid</strong>, nos dedicamos a la defensa y acusación en todo tipo de delitos recogidos en nuestro código penal:</p>
                         
-                        <div class="audio-container">
-                            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/174683382&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/daniel-villanueva-56" title="Daniel Villanueva" target="_blank" style="color: #cccccc; text-decoration: none;">Daniel Villanueva</a> · <a href="https://soundcloud.com/daniel-villanueva-56/lola-valle-somos-muchas-radio-31102014" title="Lola Valle - Turno de Oficio - Somos Muchas Radio" target="_blank" style="color: #cccccc; text-decoration: none;">Lola Valle - Turno de Oficio - Somos Muchas Radio</a></div>
-                        </div>
-                    </div>
-                    
-                    <div class="news-article" data-category="programas-radio">
-                        <span class="news-category">Programas de Radio</span>
-                        <h3 class="news-title">Falsos Culpables – Somos muchas radio</h3>
-                        <p>Extracto de la entrevista a Lola Valle Garrido, abogada penalista, en Somos Muchas Radio donde habla sobre los casos que han tenido de personas que han sido consideradas por la justicia culpables y luego resultaron ser inocentes, casos realmente dramáticos.</p>
+                        <ul>
+                            <li>Delitos económicos y societarios</li>
+                            <li>Delitos contra la libertad sexual</li>
+                            <li>Delitos de narcotráfico</li>
+                            <li>Delitos de corrupción</li>
+                            <li>Delitos violentos</li>
+                            <li>Delitos contra la seguridad vial</li>
+                        </ul>
                         
-                        <div class="audio-container">
-                            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/177959329&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/daniel-villanueva-56" title="Daniel Villanueva" target="_blank" style="color: #cccccc; text-decoration: none;">Daniel Villanueva</a> · <a href="https://soundcloud.com/daniel-villanueva-56/lola-valle-falsos-culpables-somos-muchas-radio" title="Lola Valle - Falsos culpables - Somos muchas radio" target="_blank" style="color: #cccccc; text-decoration: none;">Lola Valle - Falsos culpables - Somos muchas radio</a></div>
-                        </div>
+                        <p>Nuestra misión es que el ciudadano imputado, acusado o procesado, a la hora de llegar a juicio tenga la mejor defensa penal, intentado una sentencia absolutoria, y en los casos más difíciles, al menos evitar el ingreso en prisión.</p>
+                        
+                        <p>Cuando ejercitamos la acusación particular nuestra misión va a ser que la víctima de un delito sea resarcida en sus daños y perjuicios y ademas que el culpable sea condenado, ejercitando mediante la denuncia o querella correspondiente la acusación particular.</p>
+                        
+                        <p>Estamos totalmente preparados para defenderle y estar a su lado en todo momento.</p>
                     </div>
-                </div>
 
-                <!-- Contacto Section -->          
-                <div id="contacto" class="section-content">
+                    <!-- Familia Section -->
+                    <div id="familia" class="section-content">
+                        <h2 class="section-title">Derecho de Familia</h2>
+                        <p>Estamos especializados en derecho de familia, atendiendo entre otras, las siguientes materias:</p>
+                        
+                        <ul>
+                            <li>Separaciones y divorcios</li>
+                            <li>Reclamaciones de pensiones compensatorias y de alimentos</li>
+                            <li>Derecho de visitas, tanto los progenitores como los abuelos</li>
+                            <li>Guardia y custodia</li>
+                            <li>Testamentos, sucesiones y herencias</li>
+                            <li>Declaración de herederos</li>
+                        </ul>
+                    </div>
 
-                    
-                    <h2 class="section-title">Contacto</h2>
+                    <!-- Civil Section -->
+                    <div id="civil" class="section-content">
+                        <h2 class="section-title">Derecho Civil</h2>
+                        <p>En nuestro departamento de asuntos civiles, tratamos los siguientes temas siendo expertos en:</p>
+                        
+                        <ul>
+                            <li>Arrendamientos urbanos</li>
+                            <li>Propiedad horizontal</li>
+                            <li>Desahucios</li>
+                            <li>Reclamaciones de cantidad</li>
+                            <li>Impagos</li>
+                            <li>Contratos civiles y mercantiles</li>
+                            <li><span class="internal-link" data-section="familia">Derecho de Familia</span></li>
+                        </ul>
+                    </div>
 
-                    <p>Para contactar con el bufete rellene este formulario de contacto, o si lo prefiere envíenos un correo electrónico a <strong>lolavalle@icam.es</strong></p>
-       
-                    <div class="alert alert-danger mt-4" id="formError" style="display: none; background-color: #f8d7da; border-left: 4px solid #dc3545; padding: 15px;">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#dc3545" viewBox="0 0 16 16" style="margin-right: 10px;">
-                                    <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-                                </svg>
+                    <!-- Otras especialidades Section -->
+                    <div id="otras" class="section-content">
+                        <h2 class="section-title">Otras especialidades jurídicas</h2>
+                        <p>Nuestro despacho también ofrece servicios especializados en:</p>
+                        
+                        <ul>
+                            <li>Asistencias a detenidos</li>
+                            <li>Procedimiento Abreviado</li>
+                            <li>Violencia de Género</li>
+                            <li>Menores</li>
+                            <li>Penitenciario</li>
+                            <li>Accidentes de tráfico</li>
+                            <li>Faltas</li>
+                        </ul>
+                    </div>
+
+                    <!-- Noticias Section -->
+                    <div id="noticias" class="section-content">
+                        <h2 class="section-title">Noticias y Artículos Jurídicos</h2>
+                        
+                        <div class="news-article" data-category="programas-radio">
+                            <span class="news-category">Programas de Radio</span>
+                            <h3 class="news-title">Audiencia Nacional – Somos muchas radio</h3>
+                            <p>Extracto de la entrevista a Lola Valle Garrido, abogada penalista, en Somos Muchas Radio donde habla sobre la Audiencia Nacional, donde se tratan principalmente los delitos con la Corona o miembros de Gobiernos, delitos de crimen organizado como terrorismo, narcotráfico, falsificación de moneda, y de delitos cometidos fuera del territorio nacional que conforme a las Leyes o a los tratados corresponda su enjuiciamiento a los Tribunales Españoles.</p>
+                            
+                            <div class="audio-container">
+                               <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187451815&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/daniel-villanueva-56" title="Daniel Villanueva" target="_blank" style="color: #cccccc; text-decoration: none;">Daniel Villanueva</a> · <a href="https://soundcloud.com/daniel-villanueva-56/audiencia-nacional-somos-muchas-radio" title="Audiencia Nacional - Somos muchas radio" target="_blank" style="color: #cccccc; text-decoration: none;">Audiencia Nacional - Somos muchas radio</a></div>
                             </div>
-                            <div class="flex-grow-1 ms-3">
-                                <h5 class="alert-heading" style="margin-top: 0; margin-bottom: 10px; color: #721c24;">Error al enviar el formulario</h5>
-                                <div id="errorMessage"></div>
-                                <hr>
-                                <p class="mb-0" style="font-size: 0.9rem;">Por favor, intente nuevamente o contáctenos directamente por:<br>
-                                <strong>Teléfono:</strong> 91 5412 836 | <strong>Email:</strong> lolavalle@icam.es</p>
+                        </div>
+                        
+                        <div class="news-article" data-category="programas-radio">
+                            <span class="news-category">Programas de Radio</span>
+                            <h3 class="news-title">Turno de Oficio – Somos muchas radio</h3>
+                            <p>Extracto de la entrevista a Lola Valle Garrido, abogada penalista, en Somos Muchas Radio donde habla sobre el turno de oficio, de cómo realiza su trabajo, cómo son sus asistencias en las guardias a detenidos en asuntos de violencia, alcoholemias, menores, violencia contra la mujer.</p>
+                            
+                            <div class="audio-container">
+                                <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/174683382&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/daniel-villanueva-56" title="Daniel Villanueva" target="_blank" style="color: #cccccc; text-decoration: none;">Daniel Villanueva</a> · <a href="https://soundcloud.com/daniel-villanueva-56/lola-valle-somos-muchas-radio-31102014" title="Lola Valle - Turno de Oficio - Somos Muchas Radio" target="_blank" style="color: #cccccc; text-decoration: none;">Lola Valle - Turno de Oficio - Somos Muchas Radio</a></div>
+                            </div>
+                        </div>
+                        
+                        <div class="news-article" data-category="programas-radio">
+                            <span class="news-category">Programas de Radio</span>
+                            <h3 class="news-title">Falsos Culpables – Somos muchas radio</h3>
+                            <p>Extracto de la entrevista a Lola Valle Garrido, abogada penalista, en Somos Muchas Radio donde habla sobre los casos que han tenido de personas que han sido consideradas por la justicia culpables y luego resultaron ser inocentes, casos realmente dramáticos.</p>
+                            
+                            <div class="audio-container">
+                                <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/177959329&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/daniel-villanueva-56" title="Daniel Villanueva" target="_blank" style="color: #cccccc; text-decoration: none;">Daniel Villanueva</a> · <a href="https://soundcloud.com/daniel-villanueva-56/lola-valle-falsos-culpables-somos-muchas-radio" title="Lola Valle - Falsos culpables - Somos muchas radio" target="_blank" style="color: #cccccc; text-decoration: none;">Lola Valle - Falsos culpables - Somos muchas radio</a></div>
                             </div>
                         </div>
                     </div>
 
-                    
-                    <form id="contactForm" action="https://formspree.io/f/xwpqvywj" method="POST">
-                        <input type="hidden" name="_language" value="es">
-                        <!-- <input type="hidden" name="_next" value="https://tudominio.github.io/form-success.html"> -->
-                        <input type="hidden" name="_next" value="form-success.html">
-                        
-                        <div class="form-group">
-                            <label for="name" class="required-field">Su nombre</label>
-                            <input type="text" class="form-control" id="name" name="name" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="email" class="required-field">Su e-mail</label>
-                            <input type="email" class="form-control" id="email" name="email" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="subject">Asunto</label>
-                            <input type="text" class="form-control" id="subject" name="subject">
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="message">Su mensaje</label>
-                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-                        </div>
-                        
-                        <button type="submit" class="btn-submit">Enviar</button>
-                    </form>
-                    
+                    <!-- Contacto Section -->          
+                    <div id="contacto" class="section-content">
+                        <h2 class="section-title">Contacto</h2>
 
-                </div>
+                        <p>Para contactar con el bufete rellene este formulario de contacto, o si lo prefiere envíenos un correo electrónico a <strong>lolavalle@icam.es</strong></p>
+           
+                        <div class="alert alert-danger mt-4" id="formError" style="display: none; background-color: #f8d7da; border-left: 4px solid #dc3545; padding: 15px;">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#dc3545" viewBox="0 0 16 16" style="margin-right: 10px;">
+                                        <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                                    </svg>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h5 class="alert-heading" style="margin-top: 0; margin-bottom: 10px; color: #721c24;">Error al enviar el formulario</h5>
+                                    <div id="errorMessage"></div>
+                                    <hr>
+                                    <p class="mb-0" style="font-size: 0.9rem;">Por favor, intente nuevamente o contáctenos directamente por:<br>
+                                    <strong>Teléfono:</strong> 91 5412 836 | <strong>Email:</strong> lolavalle@icam.es</p>
+                                </div>
+                            </div>
+                        </div>
 
+                        
+                        <form id="contactForm" action="https://formspree.io/f/xwpqvywj" method="POST">
+                            <input type="hidden" name="_language" value="es">
+                            <input type="hidden" name="_next" value="form-success.html">
+                            
+                            <div class="form-group">
+                                <label for="name" class="required-field">Su nombre</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email" class="required-field">Su e-mail</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Asunto</label>
+                                <input type="text" class="form-control" id="subject" name="subject">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Su mensaje</label>
+                                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn-submit">Enviar</button>
+                        </form>
+                    </div>
+                </main>
             </div>
 
             <!-- Sidebar -->
-            <div class="col-md-4">
+            <aside class="col-md-4">
                 <div class="sidebar">
-
                     <!-- Contact Info -->
                     <div class="contact-info">
                         <h3 class="sidebar-title">Información de Contacto</h3>
@@ -356,13 +392,13 @@
                             <li>Orense 27, Esc. A 5º Izqda.</li>
                             <li>28008, Madrid</li>
                             <br>
-                            <a href="https://maps.app.goo.gl/A7PWPymdEDE6ocu9A">¿Cómo llegar a nuestra oficina?</a>
+                            <a href="https://maps.app.goo.gl/A7PWPymdEDE6ocu9A">¿Cómo llegar a nuestro despacho?</a>
                             <br>
                             <br>
                             <li>Móvil: 656 426 146</li>
                             <li>Email: <a href="mailto:lolavalle@icam.es">lolavalle@icam.es</a></li>
                             <br>
-                            <li class="d-flex flex-column gap-2"> <!-- Contenedor flexible para los botones -->
+                            <li class="d-flex flex-column gap-2">
                                 <a href="https://search.google.com/local/writereview?placeid=ChIJ13etoG4oQg0R8_R1ifDE66w" 
                                 target="_blank" 
                                 class="btn btn-primary btn-sm">
@@ -382,7 +418,7 @@
                         </ul>
                     </div>
                 </div>
-            </div>
+            </aside>
         </div>
     </div>
 
@@ -408,6 +444,34 @@
                 
                 // Show corresponding section
                 document.getElementById(sectionId).classList.add('active');
+                
+                // Actualizar breadcrumb
+                updateBreadcrumb(sectionId);
+            }
+            
+            // Actualizar breadcrumb
+            function updateBreadcrumb(sectionId) {
+                const breadcrumb = document.querySelector('.breadcrumb');
+                if (breadcrumb) {
+                    const sectionName = getSectionName(sectionId);
+                    breadcrumb.innerHTML = `
+                        <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">${sectionName}</li>
+                    `;
+                }
+            }
+            
+            // Obtener nombre de sección para breadcrumb
+            function getSectionName(sectionId) {
+                const names = {
+                    'penal': 'Derecho Penal',
+                    'familia': 'Derecho de Familia',
+                    'civil': 'Derecho Civil',
+                    'otras': 'Otras Especialidades',
+                    'noticias': 'Noticias',
+                    'contacto': 'Contacto'
+                };
+                return names[sectionId] || sectionId;
             }
             
             // Event listeners for nav links
@@ -416,6 +480,9 @@
                     e.preventDefault();
                     const sectionId = this.getAttribute('data-section');
                     switchSection(sectionId);
+                    
+                    // Actualizar título de página para SEO
+                    document.title = `Lola Valle Garrido - ${getSectionName(sectionId)} | Abogada Penalista Madrid`;
                 });
             });
             
@@ -425,6 +492,9 @@
                     e.preventDefault();
                     const sectionId = this.getAttribute('data-section');
                     switchSection(sectionId);
+                    
+                    // Actualizar título de página para SEO
+                    document.title = `Lola Valle Garrido - ${getSectionName(sectionId)} | Abogada Penalista Madrid`;
                 });
             });
             
@@ -437,13 +507,13 @@
                 document.querySelector('[data-category="programas-radio"]').scrollIntoView({
                     behavior: 'smooth'
                 });
+                
+                // Actualizar título de página para SEO
+                document.title = "Lola Valle Garrido - Programas de Radio | Abogada Penalista Madrid";
             });
-
-            
 
             // Form submission handler
             if (contactForm) {
-
                 contactForm.addEventListener('submit', async function(e) {
                     e.preventDefault();
                     
@@ -494,6 +564,9 @@
                     }
                 });
             }
+            
+            // Inicializar breadcrumb
+            updateBreadcrumb('penal');
         });
     </script>
 </body>
