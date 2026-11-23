@@ -7,8 +7,9 @@
     <meta name="description" content="Abogada penalista en Madrid especializada en derecho penal, familia y civil. Defensa jurídica experta en delitos económicos, violencia de género y sucesiones.">
     <meta name="keywords" content="abogado penalista Madrid, abogada penalista, derecho penal, Lola Valle Garrido, abogado familia Madrid, derecho civil, defensa jurídica">
     <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#0f2742">
     <link rel="canonical" href="https://lolavalle.com" />
-    
+
     <!-- Schema Markup para Abogados -->
     <script type="application/ld+json">
     {
@@ -31,555 +32,302 @@
       "openingHours": "Mo-Fr 09:00-19:00"
     }
     </script>
-    
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-        }
-        .header-image {
-            width: 100%;
-            height: auto;
-            margin-bottom: 1rem;
-            border-radius: 4px;
-        }
-        .header-content {
-            border-bottom: 1px solid #dee2e6;
-            padding-bottom: 1rem;
-            margin-bottom: 2rem;
-        }
-        .name-title {
-            font-weight: 700;
-            margin-bottom: 0;
-        }
-        .specialty {
-            color: #6c757d;
-        }
-        .nav-section {
-            margin-bottom: 2rem;
-        }
-        .nav-link {
-            padding: 0.5rem 1rem;
-            color: #495057;
-        }
-        .nav-link:hover {
-            color: #000;
-        }
-        .nav-link.active {
-            color: #fff;
-            background-color: #198754;
-            border-radius: 4px;
-        }
-        .section-title {
-            border-bottom: 1px solid #dee2e6;
-            padding-bottom: 0.5rem;
-            margin-bottom: 1.5rem;
-        }
-        .sidebar {
-            background-color: #f8f9fa;
-            padding: 1.5rem;
-            border-radius: 0.25rem;
-        }
-        .sidebar-title {
-            font-weight: 600;
-            margin-bottom: 1rem;
-        }
-        .contact-info {
-            margin-top: 2rem;
-        }
-        .section-content {
-            display: none;
-        }
-        .section-content.active {
-            display: block;
-        }
-        .internal-link {
-            color: #198754;
-            text-decoration: underline;
-            cursor: pointer;
-        }
-        .internal-link:hover {
-            text-decoration: none;
-        }
-        .news-article {
-            margin-bottom: 2.5rem;
-            padding-bottom: 1.5rem;
-            border-bottom: 1px solid #eee;
-        }
-        .news-title {
-            color: #2c3e50;
-            margin-bottom: 1rem;
-        }
-        .audio-container {
-            margin-top: 1rem;
-            margin-bottom: 1.5rem;
-        }
-        .news-category {
-            display: inline-block;
-            background-color: #f8f9fa;
-            padding: 0.25rem 0.5rem;
-            border-radius: 4px;
-            font-size: 0.85rem;
-            color: #6c757d;
-            margin-bottom: 0.5rem;
-        }
-        .contact-form {
-            margin-top: 2rem;
-        }
-        .form-group {
-            margin-bottom: 1.5rem;
-        }
-        .form-control {
-            border-radius: 4px;
-            padding: 10px 15px;
-        }
-        .btn-submit {
-            background-color: #198754;
-            color: white;
-            padding: 10px 25px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-weight: 600;
-        }
-        .btn-submit:hover {
-            background-color: #157347;
-        }
-        .required-field::after {
-            content: " *";
-            color: #dc3545;
-        }
-        .contact-info-box {
-            background-color: #f8f9fa;
-            padding: 1.5rem;
-            border-radius: 4px;
-            margin-bottom: 2rem;
-        }
-        .address {
-            margin-bottom: 1.5rem;
-            line-height: 1.8;
-        }
-        
-        /* Nuevos estilos para la confirmación y búsqueda */
-        .alert-success {
-            display: none;
-            margin-top: 1.5rem;
-        }
-        
-        /* Estilos para el breadcrumb */
-        .breadcrumb {
-            background-color: transparent;
-            padding: 0.75rem 0;
-            margin-bottom: 1rem;
-        }
-        .breadcrumb-item a {
-            color: #198754;
-            text-decoration: none;
-        }
-    </style>
+    <!-- Estilos propios -->
+    <link href="css/style.css" rel="stylesheet">
     <script defer src="https://umami.dvillaj.synology.me/script.js" data-website-id="c3ab261e-1796-4590-8226-f2264c0a287e"></script>
 </head>
-<body>
-    <div class="container py-4">
-        <div class="row">
-            <div class="col-md-8">
-                <!-- Header Image -->
-                <header>
-                    <img src="images/header.jpg" alt="Lola Valle Garrido, abogada penalista en su despacho de Madrid" class="header-image" loading="lazy" width="1200" height="630">
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="90" tabindex="0">
 
-                    <!-- Header Section -->
-                    <div class="header-content">
-                        <h1 class="name-title">Lola Valle Garrido</h1>
-                        <p class="specialty">Abogada penalista de Madrid</p>
-                    </div>
-                </header>
-
-                <!-- Navigation -->
-                <nav class="nav-section" aria-label="Navegación principal">
-                    <ul class="nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#" data-section="penal">Penal</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" data-section="familia">Familia</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" data-section="civil">Civil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" data-section="otras">Otras especialidades</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" data-section="noticias">Noticias</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" data-section="contacto">Contacto</a>
-                        </li>
-                    </ul>
-                </nav>
-
-                <!-- Main Content -->
-                <main>
-                    <div id="penal" class="section-content active">
-                        <h2 class="section-title">Derecho Penal</h2>
-                        <p>En nuestro Departamento Penal, realizamos asistencias en todo tipo de procedimientos penales, ante todas las instancias judiciales y por razón de cualquier materia.</p>
-                        
-                        <p>Como <strong>abogados penalistas en Madrid</strong>, nos dedicamos a la defensa y acusación en todo tipo de delitos recogidos en nuestro código penal:</p>
-                        
-                        <ul>
-                            <li>Delitos económicos y societarios</li>
-                            <li>Delitos contra la libertad sexual</li>
-                            <li>Delitos de narcotráfico</li>
-                            <li>Delitos de corrupción</li>
-                            <li>Delitos violentos</li>
-                            <li>Delitos contra la seguridad vial</li>
-                        </ul>
-                        
-                        <p>Nuestra misión es que el ciudadano imputado, acusado o procesado, a la hora de llegar a juicio tenga la mejor defensa penal, intentado una sentencia absolutoria, y en los casos más difíciles, al menos evitar el ingreso en prisión.</p>
-                        
-                        <p>Cuando ejercitamos la acusación particular nuestra misión va a ser que la víctima de un delito sea resarcida en sus daños y perjuicios y ademas que el culpable sea condenado, ejercitando mediante la denuncia o querella correspondiente la acusación particular.</p>
-                        
-                        <p>Estamos totalmente preparados para defenderle y estar a su lado en todo momento.</p>
-                    </div>
-
-                    <!-- Familia Section -->
-                    <div id="familia" class="section-content">
-                        <h2 class="section-title">Derecho de Familia</h2>
-                        <p>Estamos especializados en derecho de familia, atendiendo entre otras, las siguientes materias:</p>
-                        
-                        <ul>
-                            <li>Separaciones y divorcios</li>
-                            <li>Reclamaciones de pensiones compensatorias y de alimentos</li>
-                            <li>Derecho de visitas, tanto los progenitores como los abuelos</li>
-                            <li>Guardia y custodia</li>
-                            <li>Testamentos, sucesiones y herencias</li>
-                            <li>Declaración de herederos</li>
-                        </ul>
-                    </div>
-
-                    <!-- Civil Section -->
-                    <div id="civil" class="section-content">
-                        <h2 class="section-title">Derecho Civil</h2>
-                        <p>En nuestro departamento de asuntos civiles, tratamos los siguientes temas siendo expertos en:</p>
-                        
-                        <ul>
-                            <li>Arrendamientos urbanos</li>
-                            <li>Propiedad horizontal</li>
-                            <li>Desahucios</li>
-                            <li>Reclamaciones de cantidad</li>
-                            <li>Impagos</li>
-                            <li>Contratos civiles y mercantiles</li>
-                            <li><span class="internal-link" data-section="familia">Derecho de Familia</span></li>
-                        </ul>
-                    </div>
-
-                    <!-- Otras especialidades Section -->
-                    <div id="otras" class="section-content">
-                        <h2 class="section-title">Otras especialidades jurídicas</h2>
-                        <p>Nuestro despacho también ofrece servicios especializados en:</p>
-                        
-                        <ul>
-                            <li>Asistencias a detenidos</li>
-                            <li>Procedimiento Abreviado</li>
-                            <li>Violencia de Género</li>
-                            <li>Menores</li>
-                            <li>Penitenciario</li>
-                            <li>Accidentes de tráfico</li>
-                        </ul>
-                    </div>
-
-                    <!-- Noticias Section -->
-                    <div id="noticias" class="section-content">
-                        <h2 class="section-title">Noticias y Artículos Jurídicos</h2>
-                        
-                        <div class="news-article" data-category="programas-radio">
-                            <span class="news-category">Programas de Radio</span>
-                            <h3 class="news-title">Audiencia Nacional – Somos muchas radio</h3>
-                            <p>Extracto de la entrevista a Lola Valle Garrido, abogada penalista, en Somos Muchas Radio donde habla sobre la Audiencia Nacional, donde se tratan principalmente los delitos con la Corona o miembros de Gobiernos, delitos de crimen organizado como terrorismo, narcotráfico, falsificación de moneda, y de delitos cometidos fuera del territorio nacional que conforme a las Leyes o a los tratados corresponda su enjuiciamiento a los Tribunales Españoles.</p>
-                            
-                            <div class="audio-container">
-                               <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187451815&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/daniel-villanueva-56" title="Daniel Villanueva" target="_blank" style="color: #cccccc; text-decoration: none;">Daniel Villanueva</a> · <a href="https://soundcloud.com/daniel-villanueva-56/audiencia-nacional-somos-muchas-radio" title="Audiencia Nacional - Somos muchas radio" target="_blank" style="color: #cccccc; text-decoration: none;">Audiencia Nacional - Somos muchas radio</a></div>
-                            </div>
-                        </div>
-                        
-                        <div class="news-article" data-category="programas-radio">
-                            <span class="news-category">Programas de Radio</span>
-                            <h3 class="news-title">Turno de Oficio – Somos muchas radio</h3>
-                            <p>Extracto de la entrevista a Lola Valle Garrido, abogada penalista, en Somos Muchas Radio donde habla sobre el turno de oficio, de cómo realiza su trabajo, cómo son sus asistencias en las guardias a detenidos en asuntos de violencia, alcoholemias, menores, violencia contra la mujer.</p>
-                            
-                            <div class="audio-container">
-                                <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/174683382&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/daniel-villanueva-56" title="Daniel Villanueva" target="_blank" style="color: #cccccc; text-decoration: none;">Daniel Villanueva</a> · <a href="https://soundcloud.com/daniel-villanueva-56/lola-valle-somos-muchas-radio-31102014" title="Lola Valle - Turno de Oficio - Somos Muchas Radio" target="_blank" style="color: #cccccc; text-decoration: none;">Lola Valle - Turno de Oficio - Somos Muchas Radio</a></div>
-                            </div>
-                        </div>
-                        
-                        <div class="news-article" data-category="programas-radio">
-                            <span class="news-category">Programas de Radio</span>
-                            <h3 class="news-title">Falsos Culpables – Somos muchas radio</h3>
-                            <p>Extracto de la entrevista a Lola Valle Garrido, abogada penalista, en Somos Muchas Radio donde habla sobre los casos que han tenido de personas que han sido consideradas por la justicia culpables y luego resultaron ser inocentes, casos realmente dramáticos.</p>
-                            
-                            <div class="audio-container">
-                                <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/177959329&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/daniel-villanueva-56" title="Daniel Villanueva" target="_blank" style="color: #cccccc; text-decoration: none;">Daniel Villanueva</a> · <a href="https://soundcloud.com/daniel-villanueva-56/lola-valle-falsos-culpables-somos-muchas-radio" title="Lola Valle - Falsos culpables - Somos muchas radio" target="_blank" style="color: #cccccc; text-decoration: none;">Lola Valle - Falsos culpables - Somos muchas radio</a></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Contacto Section -->          
-                    <div id="contacto" class="section-content">
-                        <h2 class="section-title">Contacto</h2>
-
-                        <p>Para contactar con el bufete rellene este formulario de contacto, o si lo prefiere envíenos un correo electrónico a <strong>lolavalle@icam.es</strong></p>
-           
-                        <div class="alert alert-danger mt-4" id="formError" style="display: none; background-color: #f8d7da; border-left: 4px solid #dc3545; padding: 15px;">
-                            <div class="d-flex">
-                                <div class="flex-shrink-0">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#dc3545" viewBox="0 0 16 16" style="margin-right: 10px;">
-                                        <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-                                    </svg>
-                                </div>
-                                <div class="flex-grow-1 ms-3">
-                                    <h5 class="alert-heading" style="margin-top: 0; margin-bottom: 10px; color: #721c24;">Error al enviar el formulario</h5>
-                                    <div id="errorMessage"></div>
-                                    <hr>
-                                    <p class="mb-0" style="font-size: 0.9rem;">Por favor, intente nuevamente o contáctenos directamente por:<br>
-                                    <strong>Teléfono:</strong> 91 5412 836 | <strong>Email:</strong> lolavalle@icam.es</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        
-                        <form id="contactForm" action="https://formspree.io/f/xwpqvywj" method="POST">
-                            <input type="hidden" name="_language" value="es">
-                            <input type="hidden" name="_next" value="form-success.html">
-                            
-                            <div class="form-group">
-                                <label for="name" class="required-field">Su nombre</label>
-                                <input type="text" class="form-control" id="name" name="name" required>
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="email" class="required-field">Su e-mail</label>
-                                <input type="email" class="form-control" id="email" name="email" required>
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="subject">Asunto</label>
-                                <input type="text" class="form-control" id="subject" name="subject">
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="message">Su mensaje</label>
-                                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-                            </div>
-                            
-                            <button type="submit" class="btn-submit">Enviar</button>
-                        </form>
-                    </div>
-                </main>
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg fixed-top site-nav" aria-label="Navegación principal">
+        <div class="container">
+            <a class="navbar-brand brand" href="#inicio">
+                Lola Valle Garrido
+                <small>Abogada penalista · Madrid</small>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menú">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link" href="#areas">Áreas de práctica</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#defensa">Defensa y acusación</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#especialidades">Especialidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#medios">En los medios</a></li>
+                    <li class="nav-item ms-lg-3 mt-2 mt-lg-0"><a class="btn btn-gold btn-sm py-2" href="#contacto">Pida cita</a></li>
+                </ul>
             </div>
+        </div>
+    </nav>
 
-            <!-- Sidebar -->
-            <aside class="col-md-4">
-                <div class="sidebar">
-                    <!-- Contact Info -->
-                    <div class="contact-info">
-                        <h3 class="sidebar-title">Información de Contacto</h3>
-                        <ul class="list-unstyled">
-                                             
-                            <div class="contact-methods">
+    <header id="inicio" class="hero">
+        <div class="container">
+            <span class="kicker">Lola Valle Garrido · Abogada penalista</span>
+            <h1>Abogada penalista en Madrid: defensa firme, a su lado en cada paso</h1>
+            <p class="lead">Asistimos en todo tipo de procedimientos penales y ante todas las instancias judiciales. Si le investigan, le acusan o ha sido víctima de un delito, cuente con una defensa preparada desde el primer momento.</p>
+            <div class="d-flex flex-wrap gap-3 mt-4">
+                <a class="btn btn-gold btn-lg" href="#contacto">Solicite una consulta</a>
+                <a class="btn btn-ghost btn-lg" href="tel:+34656426146">Llamar al 656 42 61 46</a>
+            </div>
+            <p class="hero-note">Atendemos asistencias a detenidos y asuntos de penal, familia y civil en Madrid.</p>
+        </div>
+    </header>
 
-                                <div class="contact-method">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#198754" viewBox="0 0 16 16">
-                                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                                    </svg>
-                                    <strong>Dirección:</strong> <a href="https://maps.app.goo.gl/A7PWPymdEDE6ocu9A" target="_blank">Orense 27, Esc. A 5º Izqda.<br>28008 Madrid</a>
-                                </div>
-                                <div class="contact-method">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#198754" viewBox="0 0 16 16">
-                                        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                                    </svg>
-                                    <strong>Teléfono:</strong> <a href="tel:+34656426146">656 42 61 46</a>
-                                </div>
-                                <div class="contact-method">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#198754" viewBox="0 0 16 16">
-                                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
-                                    </svg>
-                                    <strong>Email:</strong> <a href="mailto:lolavalle@icam.es">lolavalle@icam.es</a>
-                                </div>
-                            </div>
-                            <br>
-                            <li class="d-flex flex-column gap-2">
-                                <a href="https://search.google.com/local/writereview?placeid=ChIJ13etoG4oQg0R8_R1ifDE66w" 
-                                target="_blank" 
-                                class="btn btn-primary btn-sm">
-                                    <i class="bi bi-star-fill me-1"></i>Valora tu experiencia
-                            </a>
-                            </li>
-                            <br>
-                        </ul>
-                    </div>
-
-                    
-                    <!-- Categories -->
-                    <div class="mb-4">
-                        <h3 class="sidebar-title">Categorías</h3>
-                        <ul class="list-unstyled">
-                            <li><a href="#" class="text-decoration-none radio-programs-link">Programas de Radio</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </aside>
+    <!-- Franja de confianza -->
+    <div class="trust">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-md-4 trust-item"><strong>Todas las instancias</strong><span>Procedimientos penales ante cualquier órgano judicial</span></div>
+                <div class="col-md-4 trust-item"><strong>Defensa y acusación</strong><span>Con usted, tanto si le acusan como si es víctima</span></div>
+                <div class="col-md-4 trust-item"><strong>Penal, familia y civil</strong><span>Un único despacho para sus asuntos jurídicos</span></div>
+            </div>
         </div>
     </div>
 
+    <main>
+        <!-- Áreas de práctica -->
+        <section id="areas">
+            <div class="container">
+                <div class="section-head">
+                    <span class="kicker">Áreas de práctica</span>
+                    <h2>Asesoramiento jurídico en lo que más importa</h2>
+                    <hr class="rule">
+                    <p class="mt-3">Tres áreas de trabajo, un mismo compromiso: explicarle con claridad su situación y defender sus intereses con rigor.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <article class="area-card">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M6 21h12M5 7h14M5 7l-3 7a3.5 3.5 0 0 0 6 0L5 7zm14 0l-3 7a3.5 3.5 0 0 0 6 0l-3-7z"/></svg>
+                            <h3>Derecho Penal</h3>
+                            <p>Como <strong>abogados penalistas en Madrid</strong>, nos dedicamos a la defensa y acusación en todo tipo de delitos recogidos en el Código Penal.</p>
+                            <ul class="check-list">
+                                <li>Delitos económicos y societarios</li>
+                                <li>Delitos contra la libertad sexual</li>
+                                <li>Delitos de narcotráfico</li>
+                                <li>Delitos de corrupción</li>
+                                <li>Delitos violentos</li>
+                                <li>Delitos contra la seguridad vial</li>
+                            </ul>
+                        </article>
+                    </div>
+                    <div class="col-lg-4">
+                        <article class="area-card">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="7" r="3"/><circle cx="17" cy="9" r="2.4"/><path d="M2 20v-2a5 5 0 0 1 5-5h2a5 5 0 0 1 5 5v2M15 20v-1.5a4 4 0 0 1 4-4h.5a3 3 0 0 1 2.5 1.5"/></svg>
+                            <h3>Derecho de Familia</h3>
+                            <p>Acompañamiento en los momentos personales más delicados, con trato cercano y soluciones claras.</p>
+                            <ul class="check-list">
+                                <li>Separaciones y divorcios</li>
+                                <li>Pensiones compensatorias y de alimentos</li>
+                                <li>Derecho de visitas, de progenitores y abuelos</li>
+                                <li>Guarda y custodia</li>
+                                <li>Testamentos, sucesiones y herencias</li>
+                                <li>Declaración de herederos</li>
+                            </ul>
+                        </article>
+                    </div>
+                    <div class="col-lg-4">
+                        <article class="area-card">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8l-5-5zM14 3v5h5M9 13h6M9 17h6"/></svg>
+                            <h3>Derecho Civil</h3>
+                            <p>Resolvemos sus conflictos civiles y mercantiles, de la reclamación amistosa al procedimiento judicial.</p>
+                            <ul class="check-list">
+                                <li>Arrendamientos urbanos</li>
+                                <li>Propiedad horizontal</li>
+                                <li>Desahucios</li>
+                                <li>Reclamaciones de cantidad e impagos</li>
+                                <li>Contratos civiles y mercantiles</li>
+                                <li>Derecho de familia</li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Defensa y acusación -->
+        <section id="defensa" class="section-alt">
+            <div class="container">
+                <div class="section-head">
+                    <span class="kicker">Su posición en el proceso</span>
+                    <h2>Preparados para defenderle, estemos en el lado que estemos</h2>
+                    <hr class="rule">
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="role-card">
+                            <span class="kicker">Si le acusan</span>
+                            <h3>Defensa penal</h3>
+                            <p>Nuestra misión es que el ciudadano imputado, acusado o procesado llegue a juicio con la mejor defensa penal posible, buscando una sentencia absolutoria y, en los casos más difíciles, al menos evitar el ingreso en prisión.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="role-card alt">
+                            <span class="kicker">Si es víctima</span>
+                            <h3>Acusación particular</h3>
+                            <p>Cuando ejercemos la acusación particular, mediante la denuncia o querella correspondiente, trabajamos para que la víctima sea resarcida de los daños y perjuicios sufridos y para que el culpable sea condenado.</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center mt-5 mb-0 fs-5" style="font-family: var(--serif); color: var(--navy);">Estamos preparados para defenderle y estar a su lado en todo momento.</p>
+            </div>
+        </section>
+
+        <!-- Otras especialidades -->
+        <section id="especialidades">
+            <div class="container">
+                <div class="section-head">
+                    <span class="kicker">Otras especialidades</span>
+                    <h2>Servicios jurídicos especializados</h2>
+                    <hr class="rule">
+                    <p class="mt-3">Nuestro despacho también ofrece servicios especializados en:</p>
+                </div>
+                <div class="chips">
+                    <span class="chip">Asistencia a detenidos</span>
+                    <span class="chip">Procedimiento abreviado</span>
+                    <span class="chip">Violencia de género</span>
+                    <span class="chip">Menores</span>
+                    <span class="chip">Penitenciario</span>
+                    <span class="chip">Accidentes de tráfico</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- En los medios -->
+        <section id="medios" class="section-alt">
+            <div class="container">
+                <div class="section-head">
+                    <span class="kicker">En los medios</span>
+                    <h2>Lola Valle en Somos Muchas Radio</h2>
+                    <hr class="rule">
+                    <p class="mt-3">Extractos de las entrevistas en las que explica, con palabras sencillas, cómo funciona la justicia penal.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <article class="media-card">
+                            <div class="body">
+                                <span class="tag">Programas de radio</span>
+                                <h3>Audiencia Nacional</h3>
+                                <p>Qué delitos se juzgan en la Audiencia Nacional: los cometidos contra la Corona o miembros del Gobierno, el crimen organizado (terrorismo, narcotráfico, falsificación de moneda) y los cometidos fuera de España cuyo enjuiciamiento corresponda a los tribunales españoles.</p>
+                            </div>
+                            <iframe title="Audiencia Nacional - Somos Muchas Radio" scrolling="no" frameborder="no" allow="autoplay" loading="lazy" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187451815&color=%23b08d4f&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=false"></iframe>
+                            <div class="sc-credit"><a href="https://soundcloud.com/daniel-villanueva-56" target="_blank" rel="noopener">Daniel Villanueva</a> · <a href="https://soundcloud.com/daniel-villanueva-56/audiencia-nacional-somos-muchas-radio" target="_blank" rel="noopener">Audiencia Nacional - Somos muchas radio</a></div>
+                        </article>
+                    </div>
+                    <div class="col-lg-4">
+                        <article class="media-card">
+                            <div class="body">
+                                <span class="tag">Programas de radio</span>
+                                <h3>Turno de Oficio</h3>
+                                <p>Cómo es el trabajo del turno de oficio y las asistencias en las guardias a detenidos: violencia, alcoholemias, menores y violencia contra la mujer.</p>
+                            </div>
+                            <iframe title="Turno de Oficio - Somos Muchas Radio" scrolling="no" frameborder="no" allow="autoplay" loading="lazy" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/174683382&color=%23b08d4f&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=false"></iframe>
+                            <div class="sc-credit"><a href="https://soundcloud.com/daniel-villanueva-56" target="_blank" rel="noopener">Daniel Villanueva</a> · <a href="https://soundcloud.com/daniel-villanueva-56/lola-valle-somos-muchas-radio-31102014" target="_blank" rel="noopener">Lola Valle - Turno de Oficio - Somos Muchas Radio</a></div>
+                        </article>
+                    </div>
+                    <div class="col-lg-4">
+                        <article class="media-card">
+                            <div class="body">
+                                <span class="tag">Programas de radio</span>
+                                <h3>Falsos culpables</h3>
+                                <p>Casos reales de personas que la justicia consideró culpables y que después resultaron ser inocentes: historias dramáticas que muestran por qué una buena defensa importa.</p>
+                            </div>
+                            <iframe title="Falsos culpables - Somos Muchas Radio" scrolling="no" frameborder="no" allow="autoplay" loading="lazy" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/177959329&color=%23b08d4f&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=false"></iframe>
+                            <div class="sc-credit"><a href="https://soundcloud.com/daniel-villanueva-56" target="_blank" rel="noopener">Daniel Villanueva</a> · <a href="https://soundcloud.com/daniel-villanueva-56/lola-valle-falsos-culpables-somos-muchas-radio" target="_blank" rel="noopener">Lola Valle - Falsos culpables - Somos muchas radio</a></div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto">
+            <div class="container">
+                <div class="section-head">
+                    <span class="kicker">Contacto</span>
+                    <h2>Cuéntenos su caso</h2>
+                    <hr class="rule">
+                    <p class="mt-3">Rellene el formulario o llámenos. Estudiaremos su situación y le indicaremos cuáles son sus opciones.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-5">
+                        <div class="contact-card">
+                            <h3>Despacho en Madrid</h3>
+                            <div class="contact-line">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
+                                <div><small>Dirección</small><a href="https://maps.app.goo.gl/A7PWPymdEDE6ocu9A" target="_blank" rel="noopener">Orense 27, Esc. A 5º Izqda.<br>28008 Madrid</a></div>
+                            </div>
+                            <div class="contact-line">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16" aria-hidden="true"><path d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/></svg>
+                                <div><small>Teléfono</small><a href="tel:+34656426146">656 42 61 46</a></div>
+                            </div>
+                            <div class="contact-line">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16" aria-hidden="true"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/></svg>
+                                <div><small>Email</small><a href="mailto:lolavalle@icam.es">lolavalle@icam.es</a></div>
+                            </div>
+                            <a class="btn btn-ghost mt-4" href="https://search.google.com/local/writereview?placeid=ChIJ13etoG4oQg0R8_R1ifDE66w" target="_blank" rel="noopener">★ Valore su experiencia</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="form-panel">
+                            <div class="alert alert-danger" id="formError" role="alert"></div>
+
+                            <form id="contactForm" action="https://formspree.io/f/xwpqvywj" method="POST">
+                                <input type="hidden" name="_language" value="es">
+                                <input type="hidden" name="_next" value="form-success.html">
+
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="name" class="form-label required-field">Su nombre</label>
+                                        <input type="text" class="form-control" id="name" name="name" autocomplete="name" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="email" class="form-label required-field">Su e-mail</label>
+                                        <input type="email" class="form-control" id="email" name="email" autocomplete="email" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="subject" class="form-label">Asunto</label>
+                                        <input type="text" class="form-control" id="subject" name="subject">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="message" class="form-label required-field">Su mensaje</label>
+                                        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-gold btn-lg w-100">Enviar consulta</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container d-flex flex-column flex-md-row justify-content-between gap-3">
+            <div>
+                <strong>Lola Valle Garrido</strong><br>
+                Abogada penalista · Orense 27, 28008 Madrid
+            </div>
+            <div class="text-md-end">
+                <a href="tel:+34656426146">656 42 61 46</a> · <a href="mailto:lolavalle@icam.es">lolavalle@icam.es</a><br>
+                Lunes a viernes, de 9:00 a 19:00
+            </div>
+        </div>
+    </footer>
+
+    <a class="call-fab" href="tel:+34656426146" aria-label="Llamar al despacho">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true"><path d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/></svg>
+        Llamar
+    </a>
+
     <!-- Bootstrap JS Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    
-    <!-- Custom JavaScript for section switching -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const navLinks = document.querySelectorAll('.nav-link');
-            const internalLinks = document.querySelectorAll('.internal-link');
-            const radioProgramsLink = document.querySelector('.radio-programs-link');
-            const contactForm = document.getElementById('contactForm');
 
-            // Función para cambiar de sección
-            function switchSection(sectionId) {
-                // Remove active class from all links and sections
-                document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
-                document.querySelectorAll('.section-content').forEach(s => s.classList.remove('active'));
-                
-                // Add active class to corresponding nav link
-                document.querySelector(`.nav-link[data-section="${sectionId}"]`).classList.add('active');
-                
-                // Show corresponding section
-                document.getElementById(sectionId).classList.add('active');
-                
-                // Actualizar breadcrumb
-                updateBreadcrumb(sectionId);
-            }
-            
-            // Actualizar breadcrumb
-            function updateBreadcrumb(sectionId) {
-                const breadcrumb = document.querySelector('.breadcrumb');
-                if (breadcrumb) {
-                    const sectionName = getSectionName(sectionId);
-                    breadcrumb.innerHTML = `
-                        <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">${sectionName}</li>
-                    `;
-                }
-            }
-            
-            // Obtener nombre de sección para breadcrumb
-            function getSectionName(sectionId) {
-                const names = {
-                    'penal': 'Derecho Penal',
-                    'familia': 'Derecho de Familia',
-                    'civil': 'Derecho Civil',
-                    'otras': 'Otras Especialidades',
-                        'noticias': 'Noticias',
-                    'contacto': 'Contacto'
-                };
-                return names[sectionId] || sectionId;
-            }
-            
-            // Event listeners for nav links
-            navLinks.forEach(link => {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    const sectionId = this.getAttribute('data-section');
-                    switchSection(sectionId);
-                    
-                    // Actualizar título de página para SEO
-                    document.title = `Lola Valle Garrido - ${getSectionName(sectionId)} | Abogada Penalista Madrid`;
-                });
-            });
-            
-            // Event listeners for internal links
-            internalLinks.forEach(link => {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    const sectionId = this.getAttribute('data-section');
-                    switchSection(sectionId);
-                    
-                    // Actualizar título de página para SEO
-                    document.title = `Lola Valle Garrido - ${getSectionName(sectionId)} | Abogada Penalista Madrid`;
-                });
-            });
-            
-            // Event listener for radio programs link
-            radioProgramsLink.addEventListener('click', function(e) {
-                e.preventDefault();
-                switchSection('noticias');
-                
-                // Scroll to the first radio program
-                document.querySelector('[data-category="programas-radio"]').scrollIntoView({
-                    behavior: 'smooth'
-                });
-                
-                // Actualizar título de página para SEO
-                document.title = "Lola Valle Garrido - Programas de Radio | Abogada Penalista Madrid";
-            });
-
-            // Form submission handler
-            if (contactForm) {
-                contactForm.addEventListener('submit', async function(e) {
-                    e.preventDefault();
-                    
-                    const submitButton = this.querySelector('button[type="submit"]');
-                    const originalButtonText = submitButton.textContent;
-                    submitButton.textContent = 'Enviando...';
-                    submitButton.disabled = true;
-                    
-                    // Ocultar mensajes previos
-                    document.getElementById('formError').style.display = 'none';
-                    
-                    try {
-                        const response = await fetch(this.action, {
-                            method: 'POST',
-                            body: new FormData(this),
-                            headers: {
-                                'Accept': 'application/json'
-                            }
-                        });
-                        
-                        if (response.ok) {
-                            // Mostrar mensaje de éxito
-                            contactForm.reset();
-                            
-                            // Redirigir a página de gracias si está configurada
-                            const nextPage = this.querySelector('input[name="_next"]').value;
-                            if (nextPage) {
-                                window.location.href = nextPage;
-                            } 
-                        } else {
-                            const errorData = await response.json();
-                            throw new Error(
-                                errorData.error || 
-                                `El servidor respondió con error ${response.status}: ${response.statusText}`
-                            );
-                        }
-                    } catch (error) {
-                        const errorAlert = document.getElementById('formError');
-                        errorAlert.innerHTML = `
-                            <strong>Error al enviar el formulario:</strong><br>
-                            ${error.message}<br><br>
-                            <small>Por favor, intente nuevamente o contáctenos directamente por correo eletrónico: <strong>lolavalle@icam.es</strong></small>
-                        `;
-                        errorAlert.style.display = 'block';
-                    } finally {
-                        submitButton.textContent = originalButtonText;
-                        submitButton.disabled = false;
-                    }
-                });
-            }
-            
-            // Inicializar breadcrumb
-            updateBreadcrumb('penal');
-        });
-    </script>
+    <script src="js/main.js"></script>
 </body>
 </html>
