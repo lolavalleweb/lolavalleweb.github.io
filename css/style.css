@@ -160,3 +160,11 @@ footer a { color: rgba(255,255,255,.85); }
     html { scroll-behavior: auto; }
     .area-card { transition: none; }
 }
+
+/* Páginas legales */
+.legal-page { padding: 7rem 0 4rem; max-width: 860px; margin: 0 auto; }
+.legal-page h1 { color: var(--navy); font-size: clamp(1.8rem, 3.5vw, 2.5rem); margin-top: .5rem; }
+.legal-page h2 { color: var(--navy); font-size: 1.3rem; margin-top: 2rem; }
+.legal-page .rule-left { margin-left: 0; }
+.legal-page .pendiente { background: #fff3cd; padding: 0 .3rem; border-radius: 3px; }
+.form-legal { font-size: .85rem; color: var(--muted); margin: .75rem 0 0; }
