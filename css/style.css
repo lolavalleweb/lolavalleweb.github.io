@@ -52,7 +52,14 @@ a { color: var(--gold-dark); }
     color: #fff;
     background:
         linear-gradient(100deg, rgba(10,26,47,.94) 0%, rgba(10,26,47,.78) 55%, rgba(10,26,47,.35) 100%),
-        url('../images/header.jpg') center / cover no-repeat;
+        url('../images/header-880.webp') center / cover no-repeat;
+}
+@media (max-width: 767.98px) {
+    .hero {
+        background-image:
+            linear-gradient(100deg, rgba(10,26,47,.94) 0%, rgba(10,26,47,.78) 55%, rgba(10,26,47,.35) 100%),
+            url('../images/header-480.webp');
+    }
 }
 .kicker { text-transform: uppercase; letter-spacing: .2em; font-size: .78rem; color: var(--gold); font-weight: 600; }
 .hero h1 { font-size: clamp(2rem, 4.6vw, 3.4rem); line-height: 1.15; font-weight: 700; max-width: 18ch; margin: .75rem 0 1.25rem; }
