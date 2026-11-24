@@ -13,7 +13,7 @@ desde CDN y se publica con GitHub Pages.
 | `form-success.html` | Página de agradecimiento a la que se redirige tras enviar el formulario. |
 | `css/style.css` | Estilos propios. Los colores están como variables al principio del fichero (`:root`). |
 | `js/main.js` | Menú móvil y envío del formulario. |
-| `images/` | Imágenes (`header.jpg` es la foto de la portada). |
+| `images/` | Imágenes (`header-480.webp` y `header-880.webp` son la foto de la portada para móvil y escritorio; `header.jpg` es la original, que usan los metadatos). |
 | `CNAME` | Dominio personalizado. No borrarlo: sin él, el dominio deja de servir la web. |
 | `.github/workflows/static.yml` | Despliegue a GitHub Pages. |
 
